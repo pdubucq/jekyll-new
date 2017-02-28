@@ -1,3 +1,3 @@
 FROM jekyll/jekyll
 
-CMD ["jekyll", "serve", "-s", "/home/site/wwwroot"]
+CMD ["jekyll", "serve", "--force_polling", "-s", "/home/site/wwwroot"]
